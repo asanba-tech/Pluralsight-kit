@@ -2,6 +2,8 @@ import './index.css';
 import {getUsers} from './api/userApi';
 import {deleteUser} from './api/userApi';
 
+debugger;
+
 // Populate table if users via API call
 getUsers().then(result => {
   let usersBody = "";
