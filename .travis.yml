@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - "6"
+- '6'
+deploy:
+  provider: heroku
+  api_key:
+    secure: lEBDLwmAlLnH/+a0Z2Ymoj81aUm9sxYWaYm4F88fvOwG3M1vlHIUS+GU8PduWa0xbZK+vFY66bUT6z0X97whXD+8dbHBeZdodtiwz3MuQMRl9x5z3IKdwL1hMhUHzqCnzt7l+KVf3dP/ydhvOUUm6hEjoG7B4spe7oLajEUsEas6uhYH5bxS/mD1hqk/KNgTTgVBbtTLQIxVraaX5LzlFhf0cQc9CuQ159X+HUcTC0pYt6WWSa9yV5+YDqD1BPq1tGinwsFFvaK09oTAVk2ZXmP17imNp7KOiSRThj01CtVCOiCUdcpJxY8yYFL6jiiZGSJClBLgHa5UoPSGnYxd/Cgu7GkMkkDWHo3vRshh+Jb3rik6kjFIQdjEm1Zb1tEqKVnP7APzZiCctkh6w1kAiVcDU8I/BO5h30OErfXaHXcvgWDuNefylRTG2t+QxcGVtXbe2KmEqBVmlFQQ1lRdb22ekxXkJTeO+s0fF/7Q0lYLJPaneTNSfnFd4imZ98+wmP+iYW4wnQxgQhEYSsbKHlE/xi36VBRb9/r1w9KuL5c7SGFwSubuhAydxFoODZI+5dwEndXw/N6yAaQsu5K7MgsM5O0bhJJvR6BgaVnF9T3ZKKXk8Pt8oso/1Stk2zyL9V2QXWjnH33IO29g3HSjzJ8i0EdKKzqD+qMcYXEPN/0=
+  app: pgmoir-js-starter-kit
+  on:
+    repo: pgmoir/js-starter-kit
